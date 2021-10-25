@@ -1,0 +1,28 @@
+﻿Sito web di un Hotel
+
+Pagine da fare:
+- Homepage
+- Camere
+- Contatti
+
+TUTTE le pagine devono avere in alto il logo e il nome dell'hotel.
+
+Sotto deve esserci una barra di navigazione con i link alle pagine 
+In fondo, si ha un footer con il nome dell'Hotel e i link dei social network 
+che portano alle pagine social dell'hotel (finte).
+
+- Homepage
+Deve contenere un'immagine che occupa tutta la larghezza della pagina
+
+Sotto, deve esserci un paragrafo con descrizione dell'hotel e un' altra immagine.
+
+- Camere
+Deve contenere una tabella:
+- prima colonna: nome della stanza, numero di posti letto
+- seconda colonna: foto della stanza
+- terza colonna: prezzo per notte
+
+- Contatti
+inserire contatto email, indirizzo, numero di telefono
+
+
