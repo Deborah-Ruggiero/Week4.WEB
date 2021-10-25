@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Form</title>
+</head>
+<body>
+
+    <form>
+        <label>Nome</label>
+        <input type="text" placeholder="Nome" />
+
+        <br /> <br />
+
+        <label>Cognome</label>
+        <input type="text" placeholder="Cognome" required="required" />
+
+        <br /> <br />
+
+        <label>Password</label>
+        <input type="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$" title="Minimum eight characters, at least one uppercase letter, one lowercase letter and one number" />
+
+        <br /> <br />
+
+        <label>Sesso</label>
+        <select>
+            <option value="">Seleziona un'opzione</option>
+            <option value="1">F</option>
+            <option value="2">M</option>
+            <option value="3">Non dichiarato</option>
+        </select>
+
+        <br /> <br />
+
+        <label>Sesso</label>
+        <label><input type="radio" name="Sesso" value="1" />F</label>
+        <label><input type="radio" name="Sesso" value="2" />M</label>
+        <label><input type="radio" name="Sesso" value="3" />Non dichiarato</label> <!--Se il name è lo stesso, non posso selezionare più voci-->
+
+        <br /> <br />
+
+        <label>Skills</label>
+        <label><input type="checkbox" value="1" name="C#" />C#</label>
+        <label><input type="checkbox" value="2" name="Html5" />Html5</label>
+        <label><input type="checkbox" value="3" name="SQL" />SQL</label>
+
+        <br /> <br />
+        <!--Submit -> per inviare la form al server-->
+        <input type="submit" value="Registrati" />
+
+        <img src="https://i1.wp.com/www.giacomocusano.com/wp-content/uploads/2016/07/coastal-wash-web.jpg?resize=1024%2C675&ssl=1"/>
+    </form>
+</body>
+</html>
