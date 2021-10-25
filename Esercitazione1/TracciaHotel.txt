@@ -7,7 +7,7 @@ Pagine da fare:
 
 TUTTE le pagine devono avere in alto il logo e il nome dell'hotel.
 
-Sotto deve esserci una barra di navigazione con i link alle pagine 
+Sotto deve esserci una barra di navigazione con i link alle pagine.
 In fondo, si ha un footer con il nome dell'Hotel e i link dei social network 
 che portano alle pagine social dell'hotel (finte).
 
@@ -24,5 +24,6 @@ Deve contenere una tabella:
 
 - Contatti
 inserire contatto email, indirizzo, numero di telefono
+(altre aggiunte: area di testo per richiedere informazioni (form -> textarea)...)
 
 
