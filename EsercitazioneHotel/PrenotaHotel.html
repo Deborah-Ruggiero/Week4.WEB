@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Prenota</title>
+
+    <link href="Hotel.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png"
+             id="logo" />
+        <h1>Disneyland Hotel</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="HomePageHotel.html">Home</a></li>
+            <li><a href="CamereHotel.html">Le nostre camere</a></li>
+            <li><a href="ContattiHotel.html">Contatti</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <form class="prenotazione">
+            <label>Nome</label> 
+            <input class="inputUtente" required placeholder="Nome" type="text" />
+
+            <label>Cognome</label>
+            <input class="inputUtente" required type="text" placeholder="Cognome" />
+
+            <label>E-mail</label>
+            <input class="inputUtente" required placeholder="E-mail" type="email" />
+
+            <label>Numero di telefono</label>
+            <input class="inputUtente" required placeholder="N. Telefono" type="tel" />
+
+            <label>Data Check-in</label>
+            <input class="inputUtente" required type="date" name="checkin" />
+
+            <label>Data Check-out</label>
+            <input class="inputUtente" required type="date" />
+
+            <input class="button" type="submit" value="Invia" href="HomepageHotel.html" />
+            <input class="button" type="reset" value="Reset" />
+        </form>
+
+        <img id="imgForm" src="mickeymouse.png" />
+    </main>
+    <footer>
+        <p>
+            &copy; 2021 Disneyland Hotel | <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+        </p>
+    </footer>
+</body>
+</html>
