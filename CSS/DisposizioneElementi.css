@@ -1,0 +1,54 @@
+﻿body {
+}
+
+/*h1{
+    display: inline;
+}*/
+
+/*Seleziona il tag h1 dopo il tag con id logo*/
+#logo + h1 {
+    display: inline;
+}
+
+.displayNone {
+    display: none;
+}
+
+.visHidden {
+    visibility: hidden;
+}
+
+#imgP {
+    float: left;
+    width: 70px;
+    height: 70px;
+}
+
+#div1 {
+    border: 2px solid red;
+    float: left;
+    width: 200px;
+}
+
+#div2 {
+    border: 2px solid green;
+    float: left;
+}
+
+#div3 {
+    border: 2px solid blue;
+    float: left;
+}
+
+#clear {
+    border: 2px solid orangered;
+    clear: left;
+}
+
+#par {
+    /* padding: 10px 20px 30px 40px;*/
+    padding: 20px;
+    /*padding-left: 20px;*/
+    border: 3px solid green;
+    margin: 10px;
+}
