@@ -6,7 +6,7 @@ Pagine da fare:
 - Contatti
 - Prenota
 
-TUTTE le pagine devono avere in alto il logo e il nome dell'hotel.
+TUTTE le pagine devono avere in alto il logo e il nome dell'hotel AFFIANCATI.
 
 Sotto deve esserci una barra di navigazione ORIZZONTALE con i link alle pagine (TRANNE Prenota).
 
