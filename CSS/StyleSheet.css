@@ -1,0 +1,74 @@
+﻿body {
+    background-color: burlywood;
+}
+
+/*Selettore dell'attributo id -> # */
+#logo {
+    width: 70px;
+    height: 70px;
+    /*border:  dotted;
+    border-color: darkviolet;*/
+    border: 2px dotted darkviolet;
+} 
+
+h1 {
+    color: darkviolet;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
+
+p {
+    color: darkblue;
+}
+
+/*Selettore del class name -> . */
+.center {
+    text-align:center;
+}
+
+.right{
+    text-align:right;
+}
+
+/*Selettore combinato*/
+p, .danger{
+    border: 3px solid red;
+}
+
+/*Seleziona tutti i p figli di div*/
+div p {
+    font-family:Arial;
+}
+
+/*Seleziona tutti i p figli di div NON innestati*/
+div > p {
+    font-size: 20px;
+}
+
+a{
+    font-size:xx-large;
+}
+
+/*Pseudo-stati*/
+a:link{
+    color:aqua;
+}
+
+a:visited {
+    color:  darkorange;
+}
+
+a:hover{
+    color: darkblue;
+    background-color:aqua;
+    text-decoration: none;
+}
+
+/*Pseudo-elemento*/
+p::first-letter{
+    color: rgb(49 150 226); 
+}
+
+p:hover{
+    background-color: #ebddbc;
+}
