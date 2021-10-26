@@ -4,26 +4,42 @@ Pagine da fare:
 - Homepage
 - Camere
 - Contatti
+- Prenota
 
 TUTTE le pagine devono avere in alto il logo e il nome dell'hotel.
 
-Sotto deve esserci una barra di navigazione con i link alle pagine.
+Sotto deve esserci una barra di navigazione ORIZZONTALE con i link alle pagine (TRANNE Prenota).
+
 In fondo, si ha un footer con il nome dell'Hotel e i link dei social network 
 che portano alle pagine social dell'hotel (finte).
 
 - Homepage
-Deve contenere un'immagine che occupa tutta la larghezza della pagina
+Deve contenere un'immagine che occupa tutta la larghezza della pagina 
 
-Sotto, deve esserci un paragrafo con descrizione dell'hotel e un' altra immagine.
+Sotto, deve esserci un paragrafo con descrizione dell'hotel e un' altra immagine AFFIANCATA.
 
 - Camere
 Deve contenere una tabella:
 - prima colonna: nome della stanza, numero di posti letto
 - seconda colonna: foto della stanza
 - terza colonna: prezzo per notte
+- quarta colonna: pulsante Prenota che porta alla pagina Prenota
+
+La tabella deve avere righe pari e dispari di colori diversi. 
+Passando sopra una riga, deve cambiare il colore di sfondo.
 
 - Contatti
 inserire contatto email, indirizzo, numero di telefono
 (altre aggiunte: area di testo per richiedere informazioni (form -> textarea)...)
+
+- Prenota
+Deve contenere una form in cui l'utente può inserire: 
+nome, cognome, email, numero di telefono, data di check-in e di check-out.
+Utilizzare un pò di controlli delle form (data type...). 
+Tutti i campi sono obbligatori.
+Inserire un pulsante arrotondato per inviare i dati (submit).
+
+Se tutto il resto è fatto:
+La form deve occupare metà della pagina e a destra avere un'immagine dell'hotel.
 
 
